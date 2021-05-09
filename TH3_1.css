@@ -1,0 +1,98 @@
+#instruction h1{
+	text-align: center;
+	color: mediumseagreen;
+}
+#instruction p{
+	text-align: center;
+	color: dodgerblue;
+	background-color: antiquewhite;
+	font-size: x-large;
+	font-family: system-ui;
+	border-radius: .5em;
+	padding: .5em;
+	border: 2px solid chocolate;
+}
+#instruction p > a{
+	color: red;
+}
+#instruction p > a:hover{
+	color: orange;
+}
+.image-box{
+	display: flex;
+}
+.head-news {
+	width: 75%;
+	padding: .5em;
+	font-size: x-large;
+}
+.small-news-box {
+	width: 25%;
+	padding: .5em;
+	/*display: flex;*/
+}
+.image-box img{
+	width: 100%;
+	height: 100%;
+}
+.description {
+	color: chocolate;
+	text-align: center;
+	/*background-color: antiquewhite;*/
+}
+.image-box .description { background-color: antiquewhite }
+.small-news {
+	display: flex;
+	margin: 1em;
+    padding: .5em;
+    height: 100px;
+}
+.small-news .image{width: 50%}
+.small-news .description {width: 50%}
+.head-news .description {
+	padding: .5em;
+}
+.comment-box  p {
+    text-align: right;
+}
+/*.comment-box tr {
+    width: 100%;
+}*/
+.comment-box table, .comment-box tbody, .comment-box tr {
+    width: 100%;
+}
+input, textarea {
+    padding: .5em;
+    border-radius: .5em;
+    border: 2px solid chocolate;
+    background-color: antiquewhite;
+}
+input:focus, textarea:focus {
+    border: 2px solid rgb(100, 42, 0);
+    outline: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #instruction p {
+        color: seagreen;
+        background-color: pink;
+        border: 2px solid tomato;
+    }
+
+    input, textarea {
+        border: 2px solid tomato;
+        background-color: violet;
+    }
+
+    .head-news {
+        width: 100%;
+    }
+
+    .image-box {
+        display: block;
+    }
+
+    .small-news-box {
+        width: 100%;
+    }
+}
