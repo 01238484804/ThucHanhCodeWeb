@@ -1,0 +1,13 @@
+.header, .footer {
+    background-color: aquamarine;
+    height: 10vh;
+}
+
+.left-sidebar, .right-sidebar {
+    background-color: azure;
+    height: 80vh;
+}
+
+.main-page {
+    background-color: beige;
+}
